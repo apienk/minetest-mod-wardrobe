@@ -17,7 +17,7 @@ appearance will revert to the default when you log in).
 The list of skins is static and determined when the server starts based on two
 files: <modsPath>/wardrobe/skins.txt and <worldPath>/skins.txt.  Both files
 have the same syntax (see "Skins File Syntax" below).  The simplest way to add
-a skin is to either drop the image into the <modsPath>/wardrobe/textures
+a skin is to either drop the texture and its preview into the <modsPath>/wardrobe/textures
 directory or add them to a texture pack, then add the simple name of the
 texture file to one of these skins.txt files.
 
@@ -30,6 +30,11 @@ using a texture pack with resolutions greater than 16x16.  Skins too may be
 higher resolution as long as they have an aspect ratio of 2:1.  The author of
 this mod created a very high resolution version of the default character and it
 works well (but has not been included to simplify mod licensing).
+
+The mod expects skin previews to be available. Previews are 400x400 PNG files
+named texturename_btn.png -- that is, for a texture named john_snow.png
+the corresponding preview should be named john_snow_btn.png. A good way to generate
+previews is to use (Minecraft Skin Viewer)[http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1261408-minecraft-skin-viewer-1-2-supports-1-8-skins].
 
 Skins File Syntax
 -----------------
@@ -70,11 +75,11 @@ specified or what name it was given.
 Mod Details
 -----------
 
-Required Minetest Version: >=0.4.9 (not tested in earlier versions)
+Required Minetest Version: >=0.4.12 (not tested in earlier versions)
 
 Dependencies: default, wool (both included in minetest_game)
 
-Recipies:
+Recipe (Disabled in this fork):
 
    * W - any wood (same kinds you can make a chest from)
    * S - any stick
@@ -93,7 +98,7 @@ Copyright and Licensing
 All contents, including source code, documentation, and images, are the
 original creations of the mod author.
 
-Author: prestidigitator (as registered on forum.minetest.net)
+Authors: prestidigitator, Andrzej Pieńkowski
 License: WTFPL (all content)
 
 Change History
@@ -111,3 +116,10 @@ Version 1.1
 * Auto-detection of player mesh name (thank you indriApollo).
 * Removed warning caused by access of uninitialized global variale (even though
   it was just a check for nil).
+
+Version 1.2
+
+* Released 2017-11-25
+* Added skin previews
+* New formspec
+* Disabled craft (part of MinetestEDU modpack, teachers should be able to use the wardrobe as a reward for students)
