@@ -34,7 +34,7 @@ works well (but has not been included to simplify mod licensing).
 The mod expects skin previews to be available. Previews are 400x400 PNG files
 named texturename_btn.png -- that is, for a texture named john_snow.png
 the corresponding preview should be named john_snow_btn.png. A good way to generate
-previews is to use (Minecraft Skin Viewer)[http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1261408-minecraft-skin-viewer-1-2-supports-1-8-skins].
+previews is to use [Minecraft Skin Viewer](http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1261408-minecraft-skin-viewer-1-2-supports-1-8-skins).
 
 Skins File Syntax
 -----------------
