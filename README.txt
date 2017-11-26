@@ -36,6 +36,8 @@ named texturename_btn.png -- that is, for a texture named john_snow.png
 the corresponding preview should be named john_snow_btn.png. A good way to generate
 previews is to use [Minecraft Skin Viewer](http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1261408-minecraft-skin-viewer-1-2-supports-1-8-skins).
 
+![Screenshot](screenshot.png)
+
 Skins File Syntax
 -----------------
 
