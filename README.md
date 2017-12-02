@@ -1,5 +1,4 @@
-Wardrobe Minetest Mod
-=====================
+# Wardrobe Minetest Mod
 
 This mod provides a very simple way to change the skin on the default character
 mesh.  Unlike other skin-changing mods out there, it does not attempt to change
@@ -32,9 +31,16 @@ this mod created a very high resolution version of the default character and it
 works well (but has not been included to simplify mod licensing).
 
 The mod expects skin previews to be available. Previews are 400x400 PNG files
-named texturename_btn.png -- that is, for a texture named john_snow.png
-the corresponding preview should be named john_snow_btn.png. A good way to generate
-previews is to use [Minecraft Skin Viewer](http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1261408-minecraft-skin-viewer-1-2-supports-1-8-skins).
+named texturename_btn.png -- that is, for a texture named **john_snow.png**
+the corresponding preview should be named **john_snow_btn.png**. A good way to generate
+previews is to use [Minecraft Skin Viewer](http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-tools/1261408-minecraft-skin-viewer-1-2-supports-1-8-skins). A good source of skins is [Addis Open-MT Skin Database](http://minetest.fensta.bplaced.net) which contains over 1000 skins.
+
+### Some example skins were added:
+
+- Jojoa1997 by Jojoa1997 http://minetest.fensta.bplaced.net/#name=jojoa1997 (CC BY-SA 3.0)
+- oOChainLynxOo 18 Birthday Skin by WidDos http://minetest.fensta.bplaced.net/#name=oOChainLynxOo%2018%20Birthday%20skin (CC BY-NC-SA 3.0)
+- Charlotte by Sporax http://minetest.fensta.bplaced.net/#name=Charlotte (CC BY-SA 3.0)
+- Morgane by loupicate http://minetest.fensta.bplaced.net/#name=Morgane (CC BY-SA 3.0)
 
 ![Screenshot](screenshot.png)
 
@@ -81,7 +87,7 @@ Required Minetest Version: >=0.4.12 (not tested in earlier versions)
 
 Dependencies: default, wool (both included in minetest_game)
 
-Recipe (Disabled in this fork):
+Recipe (**Disabled in this fork!**):
 
    * W - any wood (same kinds you can make a chest from)
    * S - any stick
@@ -101,7 +107,7 @@ All contents, including source code, documentation, and images, are the
 original creations of the mod author.
 
 Authors: prestidigitator, Andrzej Pieńkowski
-License: WTFPL (all content)
+License: WTFPL (all content except example skin textures)
 
 Change History
 --------------
