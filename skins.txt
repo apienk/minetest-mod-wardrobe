@@ -1,1 +1,4 @@
-character.png: Default Skin
+Charlotte_by_Sporax.png:Charlotte_by_Sporax
+Morgane_by_loupicate.png:Morgane_by_loupicate
+jojoa1997_2_by_jojoa1997.png:jojoa1997_2_by_jojoa1997
+oOChainLynxOo_2.0_by_oOChainLynxOo.png:oOChainLynxOo_2.0_by_oOChainLynxOo
